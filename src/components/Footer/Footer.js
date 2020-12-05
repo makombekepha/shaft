@@ -54,13 +54,12 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               <MdFingerprint className='navbar-icon' />
-              LAVISH
+              SHAFT
             </Link>
           </div>
          
           <small className='website-rights'>Shaft Co. Limited © 2020</small>
-         
-          
+          <small className='website-rights'>Designed by @Cheque_Koluoch</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'
