@@ -19,12 +19,12 @@ function App() {
       <Tnav />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/contacts' component={Contacts} />
-        <Route path='/aboutus' component={AboutUs} />
-        <Route path='/process' component={Process} />
-        <Route path='/testimonials' component={Testimonial} />
-        <Route path='/employees' component={Employees} />
-        <Route path='/projects' component={Projects} />
+        <Route path='/contacts' exact component={Contacts} />
+        <Route path='/aboutus' exact component={AboutUs} />
+        <Route path='/process' exact component={Process} />
+        <Route path='/testimonials' exact component={Testimonial} />
+        <Route path='/employees' exact component={Employees} />
+        <Route path='/projects' exact component={Projects} />
       </Switch>
       <Footer />
     </Router>

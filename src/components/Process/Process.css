@@ -29,3 +29,11 @@
 .acard{
     border: 1px solid #1261A0 !important;
 }
+@media only screen and (max-width: 800px) {
+    .contacts-title{
+        position: absolute;
+        top: 40%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+}
