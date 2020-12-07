@@ -43,12 +43,10 @@ label{
      font-size: 20px;
  }
 }
-@media only screen and (max-width: 350px) {
-    
-  .contacts-title h1{
-      font-size: 25px;
-      text-align: center;
-      transform: translate(0, 0);
-  }
+
    
-  }
+  @media only screen and (max-width: 800px) {
+    .contacts-title{
+       padding-left: 50%;
+    }
+}

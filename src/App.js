@@ -11,6 +11,7 @@ import Employees from './components/Employees/Employees';
 import Projects from './components/Projects/Projects';
 import Home from './components/Home/Home';
 import Tnav from './components/Tnav/Tnav';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/contacts' exact component={Contacts} />
         <Route path='/aboutus' exact component={AboutUs} />
+        <Route path='/services' exact component={Services} />
         <Route path='/process' exact component={Process} />
         <Route path='/testimonials' exact component={Testimonial} />
         <Route path='/employees' exact component={Employees} />

@@ -26,3 +26,8 @@
 .home-projects-body{
     margin-top: 30px;
 }
+@media only screen and (max-width: 800px) {
+    .contacts-title{
+       padding-left: 50%;
+    }
+}
