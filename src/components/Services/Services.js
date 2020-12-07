@@ -167,7 +167,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
   </Card>
   <Card>
     <Card.Img variant="top" 
-    src="http://www.fawtruk.com/uploads/200924/1-200924201444P9.jpg"
+    src="https://muchogu.files.wordpress.com/2015/01/tata-lpk2523.jpg"
      className="proje"/>
     <Card.Body>
       <Card.Text style={{color:'#1261A0'}}>
@@ -177,7 +177,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
   </Card>
   <Card>
     <Card.Img variant="top" 
-    src="http://www.fawtruk.com/uploads/200924/1-200924204HG32.jpg"
+    src="https://trucksforhirekenya.co.ke/wp-content/uploads/2020/08/Trucks-for-Hire-and-Logistics-Kenya-Limited-4-490x300.jpg"
      className="proje"/>
     <Card.Body>
       <Card.Text style={{color:'#1261A0'}}>
