@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom'
 import Contacts from './components/Contacts/Contacts';
 import AboutUs from './components/AboutUs/AboutUs';
-import Process from './components/Process/Process';
+import Process from './components/Process';
 import Testimonial from './components/Testimonials/Testimonial';
 import Employees from './components/Employees/Employees';
 import Projects from './components/Projects/Projects';
