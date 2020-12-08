@@ -13,11 +13,10 @@ const Process = () => {
                    </div>
             </div>
             <div className="intro">
-                <p>At Leafe Designer Homes we believe your home build should be
-                     as individual as you are. Our custom designed homes give you the 
-                     ability to get exactly what you want from your build.</p>
+                <p>At Shaft Co. Limited we believe our services should be
+                   cleint based. We always try to tailor our services to suit the client description.</p>
                      <p>Working collaboratively with you, our highly experienced draftsmen, 
-                         builders, tradesman, and interior designers work alongside 
+                         builders, environmental officers, and interior designers work alongside 
                          you to make sure you have the design you want for the block you 
                          have and lifestyle you desire.</p>
             </div>
@@ -93,27 +92,11 @@ const Process = () => {
 </CardDeck>
             </div>
         <div className="wants">
-            <h5 style={{color:"#1261A0"}}>Don’t have land yet?</h5>
-            <p>Don’t worry! We can help with that too. Leveraging our real estate contacts, 
-                we’ll work alongside you to find the best block for your needs and home design.</p>
 
-            <h5 style={{color:"#1261A0"}}>Found the land but need to knock down and rebuild?</h5>
-            <p>Let’s face it sometimes the best land is already occupied by a home that is too old, 
-                    not practical or not to your liking. We have done many a ‘knock down and rebuild’
-                     over the years and can manage the whole process for you to ensure you get the land
-                      and home you want.</p>
-                      <h5 style={{color:"#1261A0"}}>Want a pool?</h5>
-                      <p>In sunny Queensland, a pool is almost a necessity! We’re quite the perfectionists 
-                          when it comes to pool design and construction, ensuring that all of the tiles line
-                           up from the front door to around the pool. 
-                          If you like, you can check out some of the photos in our projects area.</p>
-                          <p>By engaging us to do your pool as well you have the benefit of dealing with
-                               the one person, the one company throughout your entire build. You can also have the
-                               confidence knowing that your pool certification has been organised as part of your build.</p>
         <hr />
         </div>
-        <div style={{width:'100%',margin:'0 4%',marginBottom:'50px',fontSize:'18px'}}>
-        <p>Find out just how exciting and enjoyable building your home can be.</p>
+        <div style={{width:'100%',margin:'0 4%',marginBottom:'50px',fontSize:'18px',color:"#1261A0",textAlign:'center'}}>
+        <p>Find out just how exciting and profitable choosing Shaft Co. Limited can be.</p>
         <p>Call us today on 07 05000089 or  07 86151760 or email shaft.ltd.inc@gmail.com</p>
         </div> 
         </div>

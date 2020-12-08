@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { FaBars,FaTimes } from 'react-icons/fa'
 //import { Button } from '../Button/Button'
 import './Tnav.css'
-import ban from '../../assets/shaft1.png'
+import ban from '../../assets/shaftLogo.png'
 import { IconContext } from 'react-icons/lib'
 
 const Tnav = () => {

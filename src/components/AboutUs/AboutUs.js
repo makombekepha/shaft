@@ -2,6 +2,7 @@ import React from 'react'
 import './AboutUs.css'
 import hero from '../../assets/cont.jpg'
 import person from '../../assets/conts.jpeg'
+import {Link} from 'react-router-dom'
 
 const AboutUs = () => {
     return (
@@ -74,12 +75,11 @@ constructionindustry to perfect the quality of services delivered.
               </div>
             </div>
             <div className="expectations">
-                <h4 style={{color:"#1261A0"}}>What can you expect from working with Leafe Designer Homes?</h4>
+                <h4 style={{color:"#1261A0"}}>What can you expect from working with Shaft Co. Limited?</h4>
                 <ul>
                     <li><strong style={{color:"#1261A0"}}>The freedom to live your way</strong> – Design, colours, appliances and 
                         extras are all up to you; it’s your home after all!</li>
-                    <li><strong style={{color:"#1261A0"}}>Fixed price construction costs</strong> – No hidden fees, no surprise
-                         extras and no pricing first home buyers out of the market.</li>
+                   
                     <li><strong style={{color:"#1261A0"}}>Complete transparency</strong> – To give you peace of mind we provide 
                         you with a copy of all receipts and price supporting documents 
                         for the selections you have made in the Budgets and Allowances 
@@ -96,14 +96,18 @@ constructionindustry to perfect the quality of services delivered.
                          high-quality materials, ensure high-quality finishes and are diligent 
                          in our workmanship.</li>
                     <li><strong style={{color:"#1261A0"}}>Open and regular communication</strong> – With regular building reports and updates you’ll never have to wonder about what is happening with your build. You’ll also have the opportunity 
-                        to meet with Ryan Leafe, our company director who personally consults on all new builds.</li>
+                        to meet with our team who consult on all new progresses.</li>
                     <li><strong style={{color:"#1261A0"}}>No false promises or marketing ploys</strong> – You know the ones. The promises
                  of remarkable upgrades and extras that lure you in only for you to find out later
                   that it’s built into the price or not quite what you thought? There’s none of
                    that with us. Instead
                  we build the home you want, with the inclusions you want for a fair and reasonable price.</li>
                 </ul>
-                <a class="waves-effect waves-light btn" href="/kgk" style={{backgroundColor:"#1261A0"}}>Meet Your Builders</a>
+                <a class="waves-effect waves-light btn" href="/kgk" style={{backgroundColor:"#1261A0"}}>
+                    <Link to="/employees" style={{color:'white'}}>
+                    Meet Our Team
+                    </Link>
+                    </a>
                 <hr/>
             </div>
             <div className="note">

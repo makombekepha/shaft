@@ -6,6 +6,7 @@ import butere2 from '../../assets/butere2.jpeg'
 import hero2 from '../../assets/brochure-download-im5.png'
 import {Button,CardDeck,Card} from 'react-bootstrap'
 import Carousol from './Carousol'
+import {Link} from 'react-router-dom'
 
 
 const Home = () => {
@@ -20,19 +21,21 @@ const Home = () => {
 
 
        <div className="midd">
-         <h1 style={{color:'#1261A0'}}>Beautiful custom built homes</h1>
-         <h3>starting from $350,000</h3>
+         <h1 style={{color:'#1261A0'}}>Welcome to Shaft Company Limited</h1>
+         <h5>Attention to Detail. Attention to Quality. Attention to Timeliness</h5>
        </div>
        <div className="home-hero-wrapper">
             <div className="home-hero-a">
-            <h2 style={{color:'#1261A0'}}>The freedom to build your way</h2>
-            <p>If you don’t believe you’ll find your ideal home in a catalogue, don’t want to be told what colours, finishes and extras you can choose from; and don’t want a cookie cutter approach to your build then you are just the kind of rebellious home builder we’re looking for.</p>
-           <p>At Leafe Designer Homes, we’re custom home builders and we like to approach building differently – with you – the future homeowner in mind. Considering your needs, wants and plans we create a truly unique custom home that is designed to suit your lifestyle, land and budget.</p>
-           <p>Whether you want to build your first home or forever home in Brisbane, want to knockdown and rebuild, or have a sloping block, flat block, narrow block, large block or acreage, we can help you design and build a house you’ll love coming home to.</p>
-           <p>Leafe Designer Homes specialise in building unique custom homes throughout Brisbane, Brisbane Eastern and Southern Suburbs, the Redlands and Cleveland.</p>
+            <h2 style={{color:'#1261A0'}}>OUR SERVICES</h2>
+            <p>At Shaft Company Limited, we over a variety of services like construction of multi-level residential buildings , office and mixed use buildings, repairs and maintenance, interior design and installation, equipment hire,excavator works,site preparation dumping, building materials delivery, road murruming and butimen standardization</p>
+           <p>Our services are client based and we always ensure that clients needs are perfectly met. Attention to detail, quality and timeliness is what put us ahead of other companies in the construction field.</p>
+           <p>Following the good services, we have received numerous appreciations from our clients who continue living in confort because of the best services we offer.</p>
+           <p>Shaft Company limmited abides by the standards and work within the Kenyan laws. The company is NCA approved and we also abide by other numerous laws required of us.</p>
            <Button variant="primary" size="lg" style={{backgroundColor:'#1261A0'}}>
-      Large button
-    </Button>
+             <Link to="/services" style={{color:'white'}}>
+             Our Services
+             </Link>
+            </Button>
            </div>
             <div className="home-hero-b">
               <img src={hero} alt=""/>
@@ -46,9 +49,13 @@ const Home = () => {
                <Card.Body style={{padding:'0 10%'}}>
                      <h4 style={{color:'#1261A0'}}>ABOUT</h4>
                      <div style={{margin:'25px 0'}}>
-                     When building a custom home, you need to know that your builder will listen to your ideas, look out for your interests and build the home that you want. You can expect this and more from Leafe Designer Homes.
+                     Shaft Co. Limited business model focuses on client needs that drive service delivery with particular attention to details, quality and timeliness. We are located in Rongo, Migori County but we serve all parts of Kenya
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View Company</Button>
+                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>
+                       <Link to="/aboutus" style={{color:'#fff'}}>
+                        About Shaft
+                       </Link>
+                      </Button>
                </Card.Body>
                </Card>
                <Card className="home-card-b">
@@ -69,9 +76,13 @@ const Home = () => {
                 <Card.Body style={{padding:'0 10%',paddingBottom:'10px'}}>
                      <h4 style={{color:'#1261A0'}}>PROCESS</h4>
                      <div style={{margin:'25px 0'}}>
-                       When building a custom home, you need to know that your builder will listen to your ideas, look out for your interests and build the home that you want. You can expect this and more from Leafe Designer Homes.
+                       At Shaft Co. Limited, we office a robust way in which the clients define what they want. We are to pay attention to details and ensure that the best quality of services are delivered.
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View PROJECTS</Button>
+                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>
+                     <Link to="/process" style={{color:'#fff'}}> 
+                       View the process
+                       </Link>
+                       </Button>
                </Card.Body>
                 </Card>
        </CardDeck>
@@ -82,9 +93,13 @@ const Home = () => {
                <Card.Body style={{padding:'0 10%'}}>
                      <h4 style={{color:'#1261A0'}}>PROJECTS</h4>
                      <div style={{margin:'25px 0'}}>
-                       When building a custom home, you need to know that your builder will listen to your ideas, look out for your interests and build the home that you want. You can expect this and more from Leafe Designer Homes.
+                       Shaft Co. Limited has successfully completed several projects with a lot of proficiency. The results are a testimony that quality is not just what we want to give but it is what we have done shall continue doing. some of our projects include and not limited to; Construction of Grand Riverside Building, Elsie Ridge building, Grand Royal Swiss Hotel and Butere Road works.
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View Homes</Button>
+                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>
+                     <Link to="/process" style={{color:'#fff'}}> 
+                       Our Projects
+                       </Link>
+                       </Button>
                </Card.Body>
               </Card>
               <Card className="home-card-b" >
@@ -97,19 +112,14 @@ const Home = () => {
        </div>
 
        <div className="client-views">
-         <h4 style={{color:'#1261A0'}}>What our clients are saying</h4>
-         <p>
-         Choosing Leafe Designer Homes was the best decision that we ever made and we have absolutely no hesitation in recommending them to our family and friends (or anyone that listens). We love the home that Ryan and his team built for us and are so incredibly proud of the end result.
-
-From our very first contact with Ryan and throughout the whole build process with his team nothing was ever too much trouble and we always felt well respected. Ryan is incredibly easy to talk to and was always wanting to ensure that we were consulted with every decision that had to be made.
-
-It truly was a pleasant experience from start to finish, and not once did we feel like just another client, so much so that we have told Ryan that we are happy for him to bring any future clients through our home to see first hand the exceptional build quality.
-Should we ever decide to leave this beautiful home and build again, without any hesitation, Leafe Designer Homes is the only company that we would ever build with.
+         <h4 style={{color:'#1261A0'}}>What Drives Us</h4>
+         <p style={{textAlign:'center'}}>
+         "As an architect, you design for the Present with awareness of the past, for the future which is essentially unknown..."
          </p>
        </div>
        <div className="home-projects">
-          <h3 style={{color:'#1261A0'}}>Projects</h3>
-          <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View All Projects</Button>
+          <h3 style={{color:'#1261A0'}}> Sample Projects</h3>
+         
        </div>
 
 {/*projects*/}

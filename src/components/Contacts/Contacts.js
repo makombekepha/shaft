@@ -55,7 +55,7 @@ const Contacts = () => {
               <div className="col s12">
               
               <div className="row">
-    <form className="col s12">
+    <form className="col s12" style={{color:'#fff'}}>
       <div className="row">
         <div className="input-field col s12">
           <input id="first_name" type="text" className="validate"/>
@@ -85,7 +85,7 @@ const Contacts = () => {
       </div>
       <p>  
       <label>
-        <input name="group1" type="radio" checked style={{color:'#1261A0'}}/>
+        <input name="group1" type="radio" style={{backgroundColor:'#1261A0'}}/>
         <span>Yes</span>
       </label>
     </p>
