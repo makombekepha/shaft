@@ -59,7 +59,7 @@ const Contacts = () => {
       <div className="row">
         <div className="input-field col s12">
           <input id="first_name" type="text" className="validate"/>
-          <label for="first_name">Your Name</label>
+          <label htmlFor="first_name">Your Name</label>
         </div>
       </div>
 
@@ -67,7 +67,7 @@ const Contacts = () => {
       <div className="row">
         <div className="input-field col s12">
           <input id="email" type="email" className="validate"/>
-          <label for="email">Your Email</label>
+          <label htmlFor="email">Your Email</label>
         </div>
       </div>
 
@@ -75,12 +75,12 @@ const Contacts = () => {
       <div className="row">
         <div className="input-field col s12">
           <input id="password" type="number" className="validate"/>
-          <label for="password">Your Phone</label>
+          <label htmlFor="password">Your Phone</label>
         </div>
       </div>
         <div className="row">
         <div className="input-field col s12">
-          <label for="last_name">Do you have land?</label>
+          <label htmlFor="last_name">Do you have land?</label>
         </div>
       </div>
       <p>  
@@ -98,14 +98,14 @@ const Contacts = () => {
     <div className="row">
         <div className="input-field col s12">
           <input id="last_name" type="text" className="validate"/>
-          <label for="last_name">If you have land, where is it located?</label>
+          <label htmlFor="last_name">If you have land, where is it located?</label>
         </div>
       </div>
      
       <div className="row">
         <div className="input-field col s12">
           <textarea id="textarea1" className="materialize-textarea">Your Message</textarea>
-          <label for="textarea1"></label>
+          <label htmlFor="textarea1"></label>
         </div>
       </div>
       <a className="waves-effect waves-light btn" href="#k" style={{backgroundColor:'#1261A0'}}>Send</a>
