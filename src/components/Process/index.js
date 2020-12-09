@@ -1,6 +1,6 @@
 import React from 'react'
 import './Process.css'
-import hero from '../../assets/cont.jpg'
+//import hero from '../../assets/cont.jpg'
 import { CardDeck,Card} from 'react-bootstrap'
 
 const Process = () => {

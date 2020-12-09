@@ -30,7 +30,7 @@ const Services = () => {
        <CardDeck>
                <Card className="home-card-a" style={{padding:'25px 0'}}>
                <Card.Body style={{padding:'0 10%'}}>
-                     <h4 style={{color:'#1261A0'}}>Multi-level Buildings</h4>
+                     <h4 style={{color:'#ff5500'}}>Multi-level Buildings</h4>
                      <div style={{margin:'25px 0'}}>
                      <p style={{fontSize:'14px'}}>
                        As time elapse technology change and modernization invade each part of the world. The dream of every house owner is to have
@@ -66,7 +66,7 @@ const Services = () => {
                 </Card>
                 <Card className="home-card-b" >
                 <Card.Body style={{padding:'0 10%',paddingBottom:'10px'}}>
-                     <h4 style={{color:'#1261A0'}}>Repair and Maintenance</h4>
+                     <h4 style={{color:'#ff5500'}}>Repair and Maintenance</h4>
                      <div style={{margin:'25px 0'}}>
                       <p style={{fontSize:'16px'}}>Is your building wearing out or the roads in your
                        area developing potholes? "A stitch in time saves nine..." Call us to give a stitch. 
@@ -87,7 +87,7 @@ const Services = () => {
        <CardDeck>
                <Card className="home-card-a" style={{padding:'35px 0'}}>
                <Card.Body style={{padding:'0 10%'}}>
-                     <h4 style={{color:'#1261A0'}}>Exavator Works</h4>
+                     <h4 style={{color:'#ff5500'}}>Exavator Works</h4>
                      <div style={{margin:'25px 0'}}>
                      <p style={{fontSize:'14px'}}>
                      Excavators are an essential piece of heavy equipment for most
@@ -99,7 +99,7 @@ const Services = () => {
                        We offer the best services.
                      </p>
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View Company</Button>
+                     
                </Card.Body>
                </Card>
                <Card className="home-card-b">
@@ -118,7 +118,7 @@ const Services = () => {
          <h3 style={{color:'#1261A0'}}>Interior Design and Installation</h3>
       </div>
       <div className="client-views">
-         <h4 style={{color:'#1261A0'}}>Talk of Elegance, talk about us..</h4>
+         <h4 style={{color:'#ff5500'}}>Talk of Elegance, talk about us..</h4>
          <p>
          If there is what makes a building cossy or elegant then it is how the interior decorations are done. A Shaft Co. LImited we give the best. When seen on photographs one wuold imagine
          it is an imaginary thing. We are commited to giving the best of the services. Our team has experts who helps with the design ideas and they are able to
@@ -170,7 +170,7 @@ const Services = () => {
          
        </div>
        <div className="client-views">
-         <h4 style={{color:'#1261A0'}}>We will never fail you...</h4>
+         <h4 style={{color:'#ff5500'}}>We will never fail you...</h4>
          <p>
          Do not be stuck please. Raech us on phone or mail to our equipment. The Equipments are well serviced and modern 
          which makes the work easier. We guarantee you smooth operations from our machines. 
@@ -217,7 +217,7 @@ const Services = () => {
        <CardDeck>
                <Card className="home-card-a" style={{padding:'35px 0'}}>
                <Card.Body style={{padding:'0 10%'}}>
-                     <h4 style={{color:'#1261A0'}}>Site Preparation</h4>
+                     <h4 style={{color:'#ff5500'}}>Site Preparation</h4>
                      <div style={{margin:'25px 0'}}>
                        <p style={{fontSize:'16px'}}>
                        Site preparation process is the first task that must be completed.  
@@ -252,7 +252,7 @@ const Services = () => {
          <h3 style={{color:'#1261A0'}}>Dumping Services</h3>
       </div>
       <div className="client-views">
-         <h4 style={{color:'#1261A0'}}>Waste dumping services we do...</h4>
+         <h4 style={{color:'#ff5500'}}>Waste dumping services we do...</h4>
          <p>
          Wastes can cause a lot of contigeous diseases in our environs. Let this not stress you any more since 
          our lorries are ready to ferry and dump the wastes in a safe place where they are treated. 
@@ -300,7 +300,7 @@ const Services = () => {
        <CardDeck>
                <Card className="home-card-a" style={{padding:'35px 0'}}>
                <Card.Body style={{padding:'0 10%'}}>
-                     <h4 style={{color:'#1261A0'}}>Building Materials Delivery</h4>
+                     <h4 style={{color:'#ff5500'}}>Building Materials Delivery</h4>
                      <div style={{margin:'25px 0'}}>
                      Shaft Co. Limited has well serviced modern trucks that deliver construction materials all over the country.
                      We transport all construction materials like sand, gravel, timber, blocks ironsheets and many more.
@@ -320,7 +320,7 @@ const Services = () => {
          <h3 style={{color:'#1261A0'}}>Road Murramming and Butimen Standardizing Services</h3>
       </div>
       <div className="client-views">
-         <h4 style={{color:'#1261A0'}}>Your Search is over. Connect with us, we will deliver</h4>
+         <h4 style={{color:'#ff5500'}}>Your Search is over. Connect with us, we will deliver</h4>
          <p>
          Shaft Co. Limited has and shall continue offering best road works services all over Kenya. We are experiences civil surveyors who work 
          hand in hand with the civil engineers to ensure nothing is left out.
