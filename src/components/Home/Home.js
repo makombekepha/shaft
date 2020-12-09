@@ -14,7 +14,7 @@ const Home = () => {
 
     return (
         <div>
-          <div style={{height:'600px'}}>
+          <div style={{top:'80px'}}>
            <Carousol />
           </div>
 
@@ -31,7 +31,7 @@ const Home = () => {
            <p>Our services are client based and we always ensure that clients needs are perfectly met. Attention to detail, quality and timeliness is what put us ahead of other companies in the construction field.</p>
            <p>Following the good services, we have received numerous appreciations from our clients who continue living in confort because of the best services we offer.</p>
            <p>Shaft Company limmited abides by the standards and work within the Kenyan laws. The company is NCA approved and we also abide by other numerous laws required of us.</p>
-           <Button variant="primary" size="lg" style={{backgroundColor:'#1261A0'}}>
+           <Button variant="primary" size="lg" style={{backgroundColor:'#ff5500'}}>
              <Link to="/services" style={{color:'white'}}>
              Our Services
              </Link>
@@ -51,7 +51,7 @@ const Home = () => {
                      <div style={{margin:'25px 0'}}>
                      Shaft Co. Limited business model focuses on client needs that drive service delivery with particular attention to details, quality and timeliness. We are located in Rongo, Migori County but we serve all parts of Kenya
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>
+                     <Button variant="primary" style={{backgroundColor:'#ff5500'}}>
                        <Link to="/aboutus" style={{color:'#fff'}}>
                         About Shaft
                        </Link>
@@ -78,7 +78,7 @@ const Home = () => {
                      <div style={{margin:'25px 0'}}>
                        At Shaft Co. Limited, we office a robust way in which the clients define what they want. We are to pay attention to details and ensure that the best quality of services are delivered.
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>
+                     <Button variant="primary" style={{backgroundColor:'#ff5500'}}>
                      <Link to="/process" style={{color:'#fff'}}> 
                        View the process
                        </Link>
@@ -95,7 +95,7 @@ const Home = () => {
                      <div style={{margin:'25px 0'}}>
                        Shaft Co. Limited has successfully completed several projects with a lot of proficiency. The results are a testimony that quality is not just what we want to give but it is what we have done shall continue doing. some of our projects include and not limited to; Construction of Grand Riverside Building, Elsie Ridge building, Grand Royal Swiss Hotel and Butere Road works.
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>
+                     <Button variant="primary" style={{backgroundColor:'#ff5500'}}>
                      <Link to="/projects" style={{color:'#fff'}}> 
                        Our Projects
                        </Link>
@@ -261,7 +261,7 @@ const Home = () => {
        {/*end projects*/}
 
        <div className="home-cont-rem">
-         <h4 style={{color:'#1261A0'}}>Have a question about the building process or want to chat about your new home? Call us today on 07 3488 0055.
+         <h4 style={{color:'#ff5500'}}>Have a question about the building process or want to chat about your new home? Call us today on 07 05000089 or 07 86151760.
         </h4>
        </div>
 
@@ -323,7 +323,7 @@ const Home = () => {
           <label htmlFor="last_name">Phyical Address</label>
         </div>
       </div>
-      <a className="waves-effect waves-light btn" href="#k" style={{backgroundColor:'#1261A0'}}>Send</a>
+      <a className="waves-effect waves-light btn" href="#k" style={{backgroundColor:'#ff5500'}}>Send</a>
     </form></div>
            </div>
          </div>

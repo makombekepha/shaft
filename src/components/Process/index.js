@@ -7,9 +7,11 @@ const Process = () => {
     return (
         <div>
             <div className="hero-wrapper">
-                <img src={hero} alt="" />
+                <img 
+                src="https://images.unsplash.com/photo-1521239248915-738394a81876?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" 
+                alt="" />
                    <div className='contacts-title'>
-                      <h1>Process</h1>
+                      <h1 style={{color:'#ff5500'}}>Process</h1>
                    </div>
             </div>
             <div className="intro">
@@ -95,7 +97,7 @@ const Process = () => {
 
         <hr />
         </div>
-        <div style={{width:'100%',margin:'0 4%',marginBottom:'50px',fontSize:'18px',color:"#1261A0",textAlign:'center'}}>
+        <div style={{width:'100%',margin:'0 4%',marginBottom:'50px',fontSize:'18px',color:"#ff5500",textAlign:'center'}}>
         <p>Find out just how exciting and profitable choosing Shaft Co. Limited can be.</p>
         <p>Call us today on 07 05000089 or  07 86151760 or email shaft.ltd.inc@gmail.com</p>
         </div> 
