@@ -2,7 +2,7 @@ import React from 'react'
 import './Services.css'
 import hero from '../../assets/ex4.jpg'
 import hero2 from '../../assets/brochure-download-im5.png'
-import {Button,CardDeck,Card} from 'react-bootstrap'
+import {CardDeck,Card} from 'react-bootstrap'
 
 
 const Services = () => {
