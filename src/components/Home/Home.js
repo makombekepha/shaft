@@ -96,7 +96,7 @@ const Home = () => {
                        Shaft Co. Limited has successfully completed several projects with a lot of proficiency. The results are a testimony that quality is not just what we want to give but it is what we have done shall continue doing. some of our projects include and not limited to; Construction of Grand Riverside Building, Elsie Ridge building, Grand Royal Swiss Hotel and Butere Road works.
                      </div>
                      <Button variant="primary" style={{backgroundColor:'#1261A0'}}>
-                     <Link to="/process" style={{color:'#fff'}}> 
+                     <Link to="/projects" style={{color:'#fff'}}> 
                        Our Projects
                        </Link>
                        </Button>
@@ -164,7 +164,7 @@ const Home = () => {
     <Card.Img variant="top" src={hero} className="proje"/>
     <Card.Body>
       <Card.Text style={{color:'#1261A0'}}>
-        Grand Riverside BUilding 
+        Grand Riverside Building 
       </Card.Text>
     </Card.Body>
   </Card>
@@ -174,7 +174,7 @@ const Home = () => {
      className="proje"/>
     <Card.Body>
       <Card.Text style={{color:'#1261A0'}}>
-      Grand Riverside BUilding
+      Grand Riverside Building
       </Card.Text>
     </Card.Body>
   </Card>
@@ -184,7 +184,7 @@ const Home = () => {
      className="proje"/>
     <Card.Body>
       <Card.Text style={{color:'#1261A0'}}>
-      Grand Riverside BUilding
+      Grand Riverside Building
       </Card.Text>
     </Card.Body>
   </Card>

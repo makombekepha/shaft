@@ -112,22 +112,22 @@ const Services = () => {
 
        </div>
 
-       <div className="client-views">
-         <h4 style={{color:'#1261A0'}}>What our clients are saying</h4>
-         <p>
-         Choosing Leafe Designer Homes was the best decision that we ever made and we have absolutely no hesitation in recommending them to our family and friends (or anyone that listens). We love the home that Ryan and his team built for us and are so incredibly proud of the end result.
-
-From our very first contact with Ryan and throughout the whole build process with his team nothing was ever too much trouble and we always felt well respected. Ryan is incredibly easy to talk to and was always wanting to ensure that we were consulted with every decision that had to be made.
-
-It truly was a pleasant experience from start to finish, and not once did we feel like just another client, so much so that we have told Ryan that we are happy for him to bring any future clients through our home to see first hand the exceptional build quality.
-Should we ever decide to leave this beautiful home and build again, without any hesitation, Leafe Designer Homes is the only company that we would ever build with.
-         </p>
-       </div>
+     
 
        <div className="midd">
          <h3 style={{color:'#1261A0'}}>Interior Design and Installation</h3>
       </div>
+      <div className="client-views">
+         <h4 style={{color:'#1261A0'}}>Talk of Elegance, talk about us..</h4>
+         <p>
+         If there is what makes a building cossy or elegant then it is how the interior decorations are done. A Shaft Co. LImited we give the best. When seen on photographs one wuold imagine
+         it is an imaginary thing. We are commited to giving the best of the services. Our team has experts who helps with the design ideas and they are able to
+         turn what a client describes to a real design.
 
+         The choice of Shaft Co. Limited is one that will never be regretted. Our previous projects like the Royal Swiss Hotel
+          is a true testimony that we offer the best. 
+         </p>
+       </div>
 {/*projects*/}
        <div className="home-projects-body">
        <div className="prj">
@@ -169,6 +169,15 @@ Should we ever decide to leave this beautiful home and build again, without any 
          <h1 style={{color:'#1261A0'}}>Equipment Hire</h1>
          
        </div>
+       <div className="client-views">
+         <h4 style={{color:'#1261A0'}}>We will never fail you...</h4>
+         <p>
+         Do not be stuck please. Raech us on phone or mail to our equipment. The Equipments are well serviced and modern 
+         which makes the work easier. We guarantee you smooth operations from our machines. 
+        We have a variety of trucks, lorries, excuvators graders which you caan hire at your comfort.
+         The hiring cost of our equipments is friendly and we can always negotiate.
+         </p>
+       </div>
 
             <div className="prj">
             <CardDeck>
@@ -177,9 +186,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
     src="https://fuso.co.ke/assets/images/deliveringprofit_tipper_mainvisual.jpg"
      className="proje"/>
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-        Grand Riverside BUilding 
-      </Card.Text>
+     
     </Card.Body>
   </Card>
   <Card>
@@ -187,9 +194,6 @@ Should we ever decide to leave this beautiful home and build again, without any 
     src="https://muchogu.files.wordpress.com/2015/01/tata-lpk2523.jpg"
      className="proje"/>
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-      Grand Riverside BUilding
-      </Card.Text>
     </Card.Body>
   </Card>
   <Card>
@@ -197,9 +201,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
     src="https://trucksforhirekenya.co.ke/wp-content/uploads/2020/08/Trucks-for-Hire-and-Logistics-Kenya-Limited-4-490x300.jpg"
      className="proje"/>
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-      Grand Riverside BUilding
-      </Card.Text>
+      
     </Card.Body>
   </Card>
 </CardDeck>
@@ -249,7 +251,16 @@ Should we ever decide to leave this beautiful home and build again, without any 
       <div className="midd">
          <h3 style={{color:'#1261A0'}}>Dumping Services</h3>
       </div>
+      <div className="client-views">
+         <h4 style={{color:'#1261A0'}}>Waste dumping services we do...</h4>
+         <p>
+         Wastes can cause a lot of contigeous diseases in our environs. Let this not stress you any more since 
+         our lorries are ready to ferry and dump the wastes in a safe place where they are treated. 
 
+         Our services are fair price wise. Since we are always considerate and very flexible. Please, avoid spread of diseases, reach
+         us as quick as possible. We are but a phone call away.
+         </p>
+       </div>
       <div className="prj">
             <CardDeck>
   <Card >
@@ -258,9 +269,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
     
      className="proje" />
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-      Elsie Ridge Building
-      </Card.Text>
+    
     </Card.Body>
   </Card>
   <Card>
@@ -268,9 +277,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
     src="https://images.unsplash.com/photo-1600795848739-5c58472a9552?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=916&q=80"
      className="proje"/>
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-        Elsie Ridge Building
-      </Card.Text>
+     
     </Card.Body>
   </Card>
   <Card>
@@ -278,9 +285,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
     src="https://images.unsplash.com/photo-1532530571679-ef36fd7b16fe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" 
     className="proje"/>
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-      Elsie Ridge Building
-      </Card.Text>
+     
     </Card.Body>
   </Card>
 </CardDeck>
@@ -314,7 +319,17 @@ Should we ever decide to leave this beautiful home and build again, without any 
             <div className="midd">
          <h3 style={{color:'#1261A0'}}>Road Murramming and Butimen Standardizing Services</h3>
       </div>
+      <div className="client-views">
+         <h4 style={{color:'#1261A0'}}>Your Search is over. Connect with us, we will deliver</h4>
+         <p>
+         Shaft Co. Limited has and shall continue offering best road works services all over Kenya. We are experiences civil surveyors who work 
+         hand in hand with the civil engineers to ensure nothing is left out.
 
+         We offer road Murramming, gravelling, Butimen Standardization services across
+         all parts of Kenya and we always pay attention to quality and timeliness.
+    
+         </p>
+       </div>
       <div className="prj">
             <CardDeck>
   <Card >
@@ -322,9 +337,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
     src="https://images.unsplash.com/photo-1575569410604-665038425ffa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
      className="proje" />
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-      Elsie Ridge Building
-      </Card.Text>
+   
     </Card.Body>
   </Card>
   <Card>
@@ -332,9 +345,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
     src="https://images.unsplash.com/photo-1503708928676-1cb796a0891e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJvYWQlMjBjb25zdHJ1Y3Rpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
      className="proje"/>
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-        Elsie Ridge Building
-      </Card.Text>
+   
     </Card.Body>
   </Card>
   <Card>
@@ -342,9 +353,7 @@ Should we ever decide to leave this beautiful home and build again, without any 
     src="https://images.unsplash.com/photo-1565204630921-bbafec59a229?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" 
     className="proje"/>
     <Card.Body>
-      <Card.Text style={{color:'#1261A0'}}>
-      Elsie Ridge Building
-      </Card.Text>
+   
     </Card.Body>
   </Card>
 </CardDeck>
