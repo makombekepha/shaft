@@ -103,7 +103,7 @@ constructionindustry to perfect the quality of services delivered.
                    that with us. Instead
                  we build the home you want, with the inclusions you want for a fair and reasonable price.</li>
                 </ul>
-                <a class="waves-effect waves-light btn" href="/kgk" style={{backgroundColor:"#1261A0"}}>
+                <a class="waves-effect waves-light btn" href="/kgk" style={{backgroundColor:"#ff5500"}}>
                     <Link to="/employees" style={{color:'white'}}>
                     Meet Our Team
                     </Link>
@@ -112,7 +112,7 @@ constructionindustry to perfect the quality of services delivered.
             </div>
             <div className="note">
                 <p>But don’t just take our word for it, take a peek inside some of the
-                     homes we’ve built by viewing <a href="/projects">our projects</a> or
+                     projects we’ve built by viewing <Link to="/projects">our projects</Link> or
                      give us a call on 07 05000089 or 0786151760 to discuss the home you want to build.</p>
             </div>
        </div>
