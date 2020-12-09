@@ -1,8 +1,6 @@
 import React from 'react'
 import './Services.css'
 import hero from '../../assets/ex4.jpg'
-//import butere from '../../assets/butere.jpg'
-//import butere2 from '../../assets/butere2.jpeg'
 import hero2 from '../../assets/brochure-download-im5.png'
 import {Button,CardDeck,Card} from 'react-bootstrap'
 
@@ -15,14 +13,14 @@ const Services = () => {
           <div className="hero-wrapper">
                 <img src={hero} alt="" />
                    <div className='contacts-title'>
-                      <h1>Services</h1>
+                      <h1>Services We Offer</h1>
                    </div>
             </div>
 
 
 
        <div className="midd">
-         <h1 style={{color:'#1UT6YU',fontFamily:'Times New Roman',fontWeight:'bold'}}><u>THE SERVICES WE OFFER</u></h1>
+         
          <h3 style={{color:'#1261A0'}}>Construction of Multi-level Residential buildings, office and mixed use Building</h3>
        </div>
 
@@ -30,13 +28,21 @@ const Services = () => {
 
        <div className="proj">
        <CardDeck>
-               <Card className="home-card-a" style={{padding:'35px 0'}}>
+               <Card className="home-card-a" style={{padding:'25px 0'}}>
                <Card.Body style={{padding:'0 10%'}}>
-                     <h4 style={{color:'#1261A0'}}>ABOUT</h4>
+                     <h4 style={{color:'#1261A0'}}>Multi-level Buildings</h4>
                      <div style={{margin:'25px 0'}}>
-                     When building a custom home, you need to know that your builder will listen to your ideas, look out for your interests and build the home that you want. You can expect this and more from Leafe Designer Homes.
+                     <p style={{fontSize:'14px'}}>
+                       As time elapse technology change and modernization invade each part of the world. The dream of every house owner is to have
+                        a house that stands unique across all the ages. Elegance and quality is what we want our houses to be actually.
+                     </p>
+                     <p style={{fontSize:'14px'}}>
+                       At Shaft Co. Limited we ensure we give the best. We build world class multi-level home and office buildings to suite the demands 
+                       of our clients. The interior decoration designer is one of his own level with varied skill and vast experience,
+                       we assure you of all but the best.
+                     </p>
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View Company</Button>
+                     
                </Card.Body>
                </Card>
                <Card className="home-card-b">
@@ -60,11 +66,14 @@ const Services = () => {
                 </Card>
                 <Card className="home-card-b" >
                 <Card.Body style={{padding:'0 10%',paddingBottom:'10px'}}>
-                     <h4 style={{color:'#1261A0'}}>PROCESS</h4>
+                     <h4 style={{color:'#1261A0'}}>Repair and Maintenance</h4>
                      <div style={{margin:'25px 0'}}>
-                       When building a custom home, you need to know that your builder will listen to your ideas, look out for your interests and build the home that you want. You can expect this and more from Leafe Designer Homes.
+                      <p style={{fontSize:'16px'}}>Is your building wearing out or the roads in your
+                       area developing potholes? "A stitch in time saves nine..." Call us to give a stitch. 
+                        At Shaft Co. Limited, we guarantee you best results. We repair warn out buildings giving them new faces and we do road maintenance 
+                        at the best cost in the market.
+                      </p>
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View PROJECTS</Button>
                </Card.Body>
                 </Card>
        </CardDeck>
@@ -78,9 +87,17 @@ const Services = () => {
        <CardDeck>
                <Card className="home-card-a" style={{padding:'35px 0'}}>
                <Card.Body style={{padding:'0 10%'}}>
-                     <h4 style={{color:'#1261A0'}}>ABOUT</h4>
+                     <h4 style={{color:'#1261A0'}}>Exavator Works</h4>
                      <div style={{margin:'25px 0'}}>
-                     When building a custom home, you need to know that your builder will listen to your ideas, look out for your interests and build the home that you want. You can expect this and more from Leafe Designer Homes.
+                     <p style={{fontSize:'14px'}}>
+                     Excavators are an essential piece of heavy equipment for most
+                      construction projects. Often referred to as diggers, excavators are
+                       used for all kinds of jobs like material handling, landscaping, demolition,
+                        mining projects, river dredging and construction.
+                     </p>
+                     <p style={{fontSize:'14px'}}>Shaft Co. LImited has good excavators with highly trained well experienced in the machine operations.
+                       We offer the best services.
+                     </p>
                      </div>
                      <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View Company</Button>
                </Card.Body>
@@ -198,11 +215,27 @@ Should we ever decide to leave this beautiful home and build again, without any 
        <CardDeck>
                <Card className="home-card-a" style={{padding:'35px 0'}}>
                <Card.Body style={{padding:'0 10%'}}>
-                     <h4 style={{color:'#1261A0'}}>ABOUT</h4>
+                     <h4 style={{color:'#1261A0'}}>Site Preparation</h4>
                      <div style={{margin:'25px 0'}}>
-                     When building a custom home, you need to know that your builder will listen to your ideas, look out for your interests and build the home that you want. You can expect this and more from Leafe Designer Homes.
+                       <p style={{fontSize:'16px'}}>
+                       Site preparation process is the first task that must be completed.  
+                       Engineers need a clear and properly prepared site to. 
+                        To start a new project in a site that is unfriendly to the project can
+                         destroy plans, hinder building permits and damage the overall project.
+                          It is a challenging activity that must be dealt with before any building 
+                          project can begin in earnest.
+                       </p>
+                        <p style={{fontSize:'16px'}}>
+                        With civil engineering projects, the site preparation can be demolition
+                      (both above and below ground), soil clearing, soil testing, site plan designs, 
+                      zoning restrictions, environmental concern and coordinating how everything on 
+                      the project should run. Preparing your site properly to begin with means a much 
+                     safer, more productive working environment, and a total project that is up to 
+                     standard and in code.
+                        </p>
+                    
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View Company</Button>
+                    
                </Card.Body>
                </Card>
                <Card className="home-card-b">
@@ -262,11 +295,11 @@ Should we ever decide to leave this beautiful home and build again, without any 
        <CardDeck>
                <Card className="home-card-a" style={{padding:'35px 0'}}>
                <Card.Body style={{padding:'0 10%'}}>
-                     <h4 style={{color:'#1261A0'}}>ABOUT</h4>
+                     <h4 style={{color:'#1261A0'}}>Building Materials Delivery</h4>
                      <div style={{margin:'25px 0'}}>
-                     When building a custom home, you need to know that your builder will listen to your ideas, look out for your interests and build the home that you want. You can expect this and more from Leafe Designer Homes.
+                     Shaft Co. Limited has well serviced modern trucks that deliver construction materials all over the country.
+                     We transport all construction materials like sand, gravel, timber, blocks ironsheets and many more.
                      </div>
-                     <Button variant="primary" style={{backgroundColor:'#1261A0'}}>View Company</Button>
                </Card.Body>
                </Card>
                <Card className="home-card-b">

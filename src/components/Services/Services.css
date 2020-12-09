@@ -18,7 +18,7 @@
 .contacts-title{
     position: absolute;
     top: 40%;
-    left: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: blue;
 }
@@ -144,5 +144,8 @@
     }
     .home-bronchure{
         background-repeat:repeat-y;
+    }
+    .contacts-title{
+        left: 20%;
     }
   }
