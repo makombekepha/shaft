@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import ban from '../../assets/shaftLogo.png'
 //import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import {
@@ -9,7 +10,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+//import { MdFingerprint } from 'react-icons/md';
 
 function Footer() {
   return (
@@ -18,30 +19,28 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h4>About Us</h4>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/aboutus'>About Shaft Co. Limited</Link>
+            <Link to='/testimonials'>Testimonials</Link>
+            <Link to='/projects'>Projects</Link>
+            <Link to='/services'>Services</Link>
+            <Link to='/employees'>Our Team</Link>
           </div>
           <div className='footer-link-items'>
             <h4>Contact Us</h4>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/'>07 05000089 or 07 86151760</Link>
+            <Link to='/'>shaft.ltd.inc@gmail.com</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h4>Videos</h4>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h4>Location</h4>
+            <Link to='/'>Shule View</Link>
+            <Link to='/'>Office No. 01 First Floor,</Link>
+            <Link to='/'>P.O BOX 64-40404</Link>
+            <Link to='/'>Rongo, of Homabay-Kenya</Link>
           </div>
           <div className='footer-link-items'>
-            <h4>Social Media</h4>
+            <h4>Connect with us</h4>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
@@ -53,8 +52,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
-              SHAFT
+            <img src={ban} alt="" width="70px" height="70px" />
             </Link>
           </div>
          
